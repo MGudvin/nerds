@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<body class="inner-page">
+	<header class="main-header">
+		<div class="container">
+			<div class="main-header-menu clearfix">
+				<div class="page-logo">
+					<a href="index.html">
+						<img src="img/main-logo.png" title="" alt="" width="139" height="56">
+					</a>
+				</div>
+
+				<nav class="main-navigation">
+					<ul>
+						<li><a href="#">Студия</a></li>
+						<li><a href="#">Клиенты</a></li>
+						<li class="active"><a href="#">Магазин</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</nav>
+
+				<div class="cart">
+					<a href="#">
+						<i class="icon-basket"></i>
+						Корзина
+					</a>
+				</div>
+			</div>
+
+			<div class="page-title">
+				<p>
+					Добро пожаловать в магазин<br>
+					готовых макетов
+				</p>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="container clearfix">
+			<form class="filter-form" action="#" method="get">
+				<fieldset class="site-cost">
+					<legend>СТОИМОСТЬ:</legend>
+
+					<div class="range-filter">
+						<div class="range-controls">
+							<div class="scale">
+								<div class="bar"></div>
+							</div>
+
+							<div class="toggle min-toggle"></div>
+							<div class="toggle max-toggle"></div>
+						</div>
+
+						<div class="price-controls">
+							<label class="half-width">
+								<span>ОТ</span>
+								<input type="text" name="min-price" placeholder="0">
+							</label>
+
+							<label class="half-width">
+								<span>до</span>
+								<input type="text" name="max-price" placeholder="15000">
+							</label>
+						</div>
+					</div>
+				</fieldset>
+
+				<fieldset class="site-structure">
+					<legend>Сетка:</legend>
+
+					<label>
+						<input type="radio" name="site-structure" value="adaptive">
+						<i class="icon-circle"></i>
+						<span>Адаптивная</span>
+					</label>
+
+					<label>
+						<input type="radio" name="site-structure" value="fixed">
+						<i class="icon-circle"></i>
+						<span>Фиксированная</span>
+					</label>
+
+					<label>
+						<input type="radio" name="site-structure" value="rubber">
+						<i class="icon-circle"></i>
+						<span>Резиновая</span>
+					</label>
+				</fieldset>
+
+				<fieldset class="site-features">
+					<legend>ОСОБЕННОСТИ:</legend>
+
+					<label>
+						<input type="checkbox" name="slider">
+						<i class="icon-check-off"></i>
+						<span>Слайдер</span>
+					</label>
+
+					<label>
+						<input type="checkbox" name="advantages-block">
+						<i class="icon-check-off"></i>
+						<span>Блок преимуществ</span>
+					</label>
+
+					<label>
+						<input type="checkbox" name="news">
+						<i class="icon-check-off"></i>
+						<span>Новости</span>
+					</label>
+
+					<label>
+						<input type="checkbox" name="gallery">
+						<i class="icon-check-off"></i>
+						<span>Галерея</span>
+					</label>
+
+					<label>
+						<input type="checkbox" name="cart">
+						<i class="icon-check-off"></i>
+						<span>Корзина</span>
+					</label>
+				</fieldset>
+
+				<button class="btn" type="submit">ПОКАЗАТЬ</button>
+			</form>
+
+			<div class="shop">
+				<div class="shop-sort clearfix">
+					<div class="shop-sort-title">СОРТИРОВАТЬ:</div>
+
+					<ul class="shop-sort-menu">
+						<li><a href="#">ПО ЦЕНЕ</a></li>
+						<li><a href="#">ПО ТИПУ</a></li>
+						<li><a href="#">ПО ФУНКЦИОНАЛУ</a></li>
+					</ul>
+
+					<ul class="shop-sort-direction">
+						<li>
+							<a class="active" href="#">
+								<i class="icon-down-dir"></i>
+								Наименьшая цена
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<i class="icon-up-dir"></i>
+								Наивысшая цена
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="shop-items clearfix">
+					<article class="shop-item">
+						<div class="action">
+							<h1>Aviator</h1>
+
+							<p>
+								Интернет-магазин с личным кабинетом
+							</p>
+
+							<button class="btn" type="submit">10000 Р.</button>
+						</div>
+
+						<div class="shop-item-header"></div>
+
+						<figure class="shop-item-img">
+							<img src="img/catalog/aviator.jpg" title="" alt="" width="240" height="240">
+						</figure>
+					</article>
+
+					<article class="shop-item">
+						<div class="action">
+							<h1>Sunset</h1>
+
+							<p>
+								Интернет-магазин с личным кабинетом
+							</p>
+
+							<button class="btn" type="submit">10000 Р.</button>
+						</div>
+
+						<div class="shop-item-header"></div>
+
+						<figure class="shop-item-img">
+							<img src="img/catalog/sunset.jpg" title="" alt="" width="240" height="240">
+						</figure>
+					</article>
+
+					<article class="shop-item">
+						<div class="action">
+							<h1>Forte</h1>
+
+							<p>
+								Интернет-магазин с личным кабинетом
+							</p>
+
+							<button class="btn" type="submit">10000 Р.</button>
+						</div>
+
+						<div class="shop-item-header"></div>
+
+						<figure class="shop-item-img">
+							<img src="img/catalog/forte.jpg" title="" alt="" width="240" height="240">
+						</figure>
+					</article>
+
+					<article class="shop-item">
+						<div class="action">
+							<h1>Marquee</h1>
+
+							<p>
+								Интернет-магазин с личным кабинетом
+							</p>
+
+							<button class="btn" type="submit">10000 Р.</button>
+						</div>
+
+						<div class="shop-item-header"></div>
+
+						<figure class="shop-item-img">
+							<img src="img/catalog/marquee.jpg" title="" alt="" width="240" height="240">
+						</figure>
+					</article>
+
+					<article class="shop-item">
+						<div class="action">
+							<h1>Avenue</h1>
+
+							<p>
+								Интернет-магазин с личным кабинетом
+							</p>
+
+							<button class="btn" type="submit">10000 Р.</button>
+						</div>
+
+						<div class="shop-item-header"></div>
+
+						<figure class="shop-item-img">
+							<img src="img/catalog/avenue.jpg" title="" alt="" width="240" height="240">
+						</figure>
+					</article>
+
+					<article class="shop-item">
+						<div class="action">
+							<h1>Dovetail</h1>
+
+							<p>
+								Интернет-магазин с личным кабинетом
+							</p>
+
+							<button class="btn" type="submit">10000 Р.</button>
+						</div>
+
+						<div class="shop-item-header"></div>
+
+						<figure class="shop-item-img">
+							<img src="img/catalog/dovetail.jpg" title="" alt="" width="240" height="240">
+						</figure>
+					</article>
+				</div>
+
+				<div class="shop-pages clearfix">
+					<ul>
+						<li class="active"><span>1</span></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a class="next-btn" href="#">СЛЕДУЮЩАЯ</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="main-footer">
+		<div class="map">
+			
+		</div>
+
+		<div class="container">
+			<div class="main-footer-top">
+				<div class="feedback">
+					<h2>NЁRDS DESIGN STUDIO</h2>
+
+					<p>
+						191186, Санкт-Петербург,<br>
+						ул. Б. Конюшенная, д. 19/8<br>
+						<br>
+						тел. +7 (812) 275-75-75
+					</p>
+
+					<a class="btn" href="#">Напишите нам</a>
+				</div>
+			</div>
+
+			<div class="social clearfix">
+				<div class="social-buttons">
+					<a class="social-btn social-btn-vk" href="#">Vkontakte</a>
+					<a class="social-btn social-btn-fb" href="#">Facebook</a>
+					<a class="social-btn social-btn-in" href="#">Instagram</a>
+				</div>
+
+				<div class="social-title">
+					<b>
+						Давайте дружить, это выгодно!
+					</b>
+
+					<p>
+						Скидка 10% для друзей из социальных сетей.
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="modal-content">
+		<div class="modal-content-close"></div>
+
+		<form class="modal-content-form" action="#" method="post"> 
+			<div class="half-width">
+				<label>
+					<span>Ваше имя:</span>
+					<input type="text" name="user-name" placeholder="Представьтесь, пожалуйста">
+				</label>
+			</div>
+
+			<div class="half-width">
+				<label>
+					<span>Ваш e-mail:</span>
+					<input type="email" name="user-email" placeholder="Для отправки ответа">
+				</label>
+			</div>
+
+			<label>
+				<span>Текст письма:</span>
+				<textarea name="user-message" rows="5">В свободной форме</textarea>
+			</label>
+
+			<button class="btn" type="submit">ОТПРАВИТЬ</button>
+		</form>
+	</div>
+
+	<div class="modal-content-overlay"></div>
+
+	<div class="modal-content">
+		<div class="modal-content-close"></div>
+
+		<form class="modal-content-form" action="#" method="post"> 
+			<div class="half-width">
+				<label>
+					<span>Ваше имя:</span>
+					<input type="text" name="user-name" placeholder="Представьтесь, пожалуйста">
+				</label>
+			</div>
+
+			<div class="half-width">
+				<label>
+					<span>Ваш e-mail:</span>
+					<input type="email" name="user-email" placeholder="Для отправки ответа">
+				</label>
+			</div>
+
+			<label>
+				<span>Текст письма:</span>
+				<textarea name="user-message" rows="5">В свободной форме</textarea>
+			</label>
+
+			<button class="btn" type="submit">ОТПРАВИТЬ</button>
+		</form>
+	</div>
+
+	<div class="modal-content-overlay"></div>
+
+	<script>
+		var popup = document.querySelector(".modal-content");
+		var popupOverlay = document.querySelector(".modal-content-overlay");
+		var openPopup = document.querySelector(".feedback .btn");
+		var close = popup.querySelector(".modal-content-close");
+
+		openPopup.addEventListener("click", function(event){
+			event.preventDefault();
+			popup.classList.add("modal-content-show");
+			popupOverlay.classList.add("modal-content-overlay-show");
+		});
+
+		close.addEventListener("click", function(event){
+			event.preventDefault();
+			popup.classList.remove("modal-content-show");
+			popupOverlay.classList.remove("modal-content-overlay-show");
+		});
+	</script>
+</body>
+</html>
